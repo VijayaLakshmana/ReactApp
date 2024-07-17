@@ -1,0 +1,29 @@
+.ticketBookingDetailsPage {
+  width: 100vw;
+  height: 100%;
+  margin: -0.5%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr 2fr;
+  grid-template-areas: "container1" "container2";
+}
+.container2 {
+  background-color: rgb(205, 83, 83);
+}
+.passengerForm{
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+  border: 1px solid rgb(192, 172, 172);
+  margin: 10px 300px 10px 300px;
+  height: 590px;
+}
+.bookTicketButton{
+  height: 40px;
+  width: 100px;
+}
+.destingationFont{
+ margin-top: 12px;
+  font-size: 30px;
+}
+ 

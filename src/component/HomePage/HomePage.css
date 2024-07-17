@@ -1,0 +1,112 @@
+
+.layout {
+  width: 100vw;
+  height: 100%;
+  margin: -0.6%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr 9fr;
+  grid-template-areas: "content1" "content2";
+}
+.navigationbar-right a:hover {
+  background-color: rgb(191, 177, 177);
+  color: rgb(7, 7, 7);
+}
+.navigationbar-right a,
+span {
+  float: left;
+  color: #111010;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navigationbar-right a {
+  float: right;
+}
+.content2 {
+  background-image: url("../../assets/SearchBackground.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-area: "content2";
+}
+.searchform input {
+  padding-right: 30px;
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: left;
+  padding-left: 25px;
+}
+.icon1 {
+  background-image: url("../../assets/from.png");
+}
+.icon2 {
+  background-image: url("../../assets/to.png");
+}
+.appLogo {
+  background-image: url("../../assets/BusLogo.jpg");
+}
+.content1 span {
+  padding-right: 85px;
+  background-repeat: no-repeat;
+  background-size: 80px 80px;
+  background-position: left;
+  padding-left: 85px;
+}
+.content1 a {
+  padding-right: 30px;
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  background-position: left;
+  padding-left: 30px;
+}
+#login {
+  background-image: url("../../assets/login.png");
+}
+#ticketCancel {
+  background-image: url("../../assets/CancelTicket.png");
+}
+#ticket {
+  background-image: url("../../assets/ViewTicket.png");
+}
+.searchform input {
+  border: 1px solid rgb(154, 151, 155);
+  padding: 20px;
+  width: 250px;
+  height: 15px;
+}
+.searchButton {
+  margin-left: 10px;
+  background-color: rgb(195, 68, 68);
+  font-size: larger;
+  border-radius: 10px;
+  border: 1px solid rgb(33, 32, 32);
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+}
+.content3
+{
+  margin: 0 auto;
+}
+.heading
+{
+  text-align: center;
+  font-size: 80px;
+  font-weight: 800;
+  color: rgba(189, 90, 90, 0.867);
+
+}
+.para
+{
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+
+
+
